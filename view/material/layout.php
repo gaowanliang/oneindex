@@ -64,7 +64,7 @@
 	</style>
 </head>
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
-	<header class="mdui-appbar mdui-color-theme">
+	<header class="mdui-appbar mdui-color-grey-900">
 		<div class="mdui-toolbar mdui-container">
 			<a href="/" class="mdui-typo-headline"><?php e(config('site_name'));?></a>
 			<?php foreach((array)$navs as $n=>$l):?>
