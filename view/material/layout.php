@@ -74,7 +74,11 @@
 			<!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>-->
 		</div>
 	</header>
-	
+	<a href="/?/admin">
+	<button class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-green">
+		<i class="mdui-icon material-icons">assignment_ind</i>
+		</button>
+	</a>
 	<div class="mdui-container">
     	<?php view::section('content');?>
   	</div>
